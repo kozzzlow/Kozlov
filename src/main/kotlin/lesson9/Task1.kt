@@ -18,8 +18,6 @@ fun convertToStrings(users: List<User>, conversion: (User) -> String): List<Stri
 */
 
 
-
-
 /*
 
 fun main() {

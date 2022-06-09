@@ -52,9 +52,9 @@ fun totalNumberOfEmployees (company: Company) :Int {
     var sumEmployees = 0
 
     for (depart in company.departments) {
-        for (employee in depart.employees)
+        for (employee in depart.employees) {
             sumEmployees++
-
+        }
     }
     return sumEmployees
 }

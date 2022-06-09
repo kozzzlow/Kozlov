@@ -10,19 +10,20 @@ package lesson10
 Для этой задачи есть видео с разбором.
 */
 
-class Rectangle2 (
+class Rectangle2(
     private val height: Int,
-    private val width:Int) {
+    private val width: Int,
+) {
 
-    fun area (): Int {
-        return height*width
+    fun area(): Int {
+        return height * width
     }
 
-    fun perimetr () :Int {
-        return 2*(height*width)
+    fun perimetr(): Int {
+        return 2 * (height * width)
     }
 
-    fun square (): Boolean {
+    fun square(): Boolean {
         return width == height
 
     }
@@ -30,7 +31,7 @@ class Rectangle2 (
 }
 
 fun main() {
-    val rectangle2 = Rectangle2 (3,3)
+    val rectangle2 = Rectangle2(3, 3)
 
     val area = rectangle2.area()
     println(area)

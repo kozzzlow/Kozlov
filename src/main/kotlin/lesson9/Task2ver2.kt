@@ -14,7 +14,7 @@ fun containsElement(users: List<User>, condition: (User) -> Boolean): Boolean
 2. Функцию, которая отвечает на вопрос присутствует ли в коллекции элемент, который удовлетворяет условиям
 
 fun containsElement(users: List<User>, condition: (User) -> Boolean): Boolean
-
+*/
 
 fun main() {
     val users = listOf(
@@ -22,17 +22,15 @@ fun main() {
         User("Bob", 14),
         User("Frank", 46)
     )
-    val result = containsElement(users) {it.age ==15}
+    val result = containsElement(users) { it.age == 14 }
     println(result)
 
 }
 
 fun containsElement(users: List<User>, condition: (User) -> Boolean): Boolean {
-    for (user in users)
+    for (user in users) {
         if (condition(user))
             return true
-
+    }
     return false
 }
-
- */

@@ -29,10 +29,10 @@ fun main() {
 
 fun elementsCount (users: List<User>, condition: (User)->Boolean): Int{
     var counter = 0
-    for (user in users)
+    for (user in users){
         if (condition(user))
             counter++
-
+}
     return counter
 }
 

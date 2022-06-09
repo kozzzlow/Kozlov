@@ -1,5 +1,5 @@
 package lesson11
-
+/*
 fun main() {
     val manager1 = Manager ("Kirill", 120000)
     manager1.addProject("ProjectX")
@@ -14,10 +14,12 @@ fun main() {
 
     val employees = listOf<Employee>(programmer1,programmer2,manager1,manager2)
 
-    for (employee in employees)
+    for (employee in employees){
         employee.addProject("General project")
-    for (employee in employees)
+        }
+    for (employee in employees){
         employee.printAllProjects()
+        }
 }
 //суперкласс
 open class Employee(
@@ -56,3 +58,4 @@ class Manager(name: String, salary: Int): Employee (name, salary) {
         println("Manager $name call to client $clientName")
     }
 }
+*/
