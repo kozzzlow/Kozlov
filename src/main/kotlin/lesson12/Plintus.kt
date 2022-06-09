@@ -40,6 +40,7 @@ fun perimetr(komnata: List<Int>): Int {
     for (el in komnata) {
         sum += el
 
+
     }
     return sum
 }
