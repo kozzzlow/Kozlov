@@ -29,19 +29,19 @@ open class Figure(
     var y: Int = 0
 
     fun moveLeft (step:Int){
-        y-=step
-    }
-
-    fun moveRight (step:Int){
-        y+=step
-    }
-
-    fun moveDown (step:Int){
         x-=step
     }
 
-    fun moveUp (step:Int){
+    fun moveRight (step:Int){
         x+=step
+    }
+
+    fun moveDown (step:Int){
+        y-=step
+    }
+
+    fun moveUp (step:Int){
+        y+=step
     }
 
     fun showPosition () {

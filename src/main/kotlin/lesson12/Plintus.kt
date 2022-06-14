@@ -48,7 +48,7 @@ fun perimetr(komnata: List<Int>): Int {
 fun metrInIzd(perimCollec: List<Double>) :List<Double> {
     var newList = mutableListOf<Double>()
     for (el in perimCollec) {
-        newList.add(el/2.5) // 2.5 м - длина одной палки плинтуса
+        newList.add(el/2.2) // 2.5 м - длина одной палки плинтуса
     }
     return newList
 
